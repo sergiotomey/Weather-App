@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Weather</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+
+<body>
+    <header>Weather App</header>
+    <div class="container">
+        <div class="search">
+            <input type="text" class="city-name" placeholder="Enter city or ZIP code">
+            <button type="submit">Search</button>
+        </div>
+        <div class="forecast hidden">
+            <img src="" alt="weather icon" class="weather-icon">
+            <h1 class="city-label"></h1>
+            <h3 class="weather-condition"> </h3>
+            <div class="extra">
+                <h2 class="temperature"> </h2>
+                <label for="feels-like">Feels Like</label>
+                <p class="feels-like"> </p>
+            </div>
+            <div class="extra">
+                <label for="wind-speed">Wind Speed</label>
+                <p class="wind-speed"> </p>
+                <label for="humidity">Humidity</label>
+                <p class="humidity"> </p>
+            </div>
+        </div>
+    </div>
+    <p class="footer">Powered by <a href="https://www.weatherapi.com/" title="Free Weather API">WeatherAPI.com</a></p>
+    <script src="app.js"></script>
+</body>
+
+</html>
